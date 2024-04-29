@@ -1,0 +1,90 @@
+.footer_background {
+    max-width: 1400px;
+    margin: 0% auto;
+    height: 440px;
+    background: rgba(46, 52, 64, 1);
+
+}
+.ft_container {
+    width: 1162px;
+    height: 293px;
+    top: 52px;
+    left: 139px;
+    padding-top: 40px;
+
+
+}
+.footer_body {
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_logo img {
+    width: 117.39px;
+    height: 72px;
+    cursor: pointer;
+}
+.ft_text p {
+    color: white;
+    padding-left: 20px;
+    text-align: justify;
+}
+.footer_heading {
+    font-family: "DM Sans", "sans-serif";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26.04px;
+    text-align: left;
+    color: rgba(144, 188, 99, 1);
+    padding-bottom: 10px;
+    cursor: pointer;
+
+}
+.footer_body li {
+    color: white;
+    font-family: "DM Sans", "sans-serif";
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 29.83px;
+    text-align: left;
+    cursor: pointer;
+
+}
+.col_3 {
+    width: 288px;
+    height: 199px;
+}
+.col_2 {
+    width: 110px;
+    gap: 16px;
+    height: 17px;
+  
+}
+.col_2, .col_4 li {
+    list-style: none;
+}
+.col_4 {
+    width: 195px;
+    gap: 16px;
+    height: 17px;
+  
+}
+.horizental_line {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.copy_right {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.footer_links {
+    padding-top: 21px;
+    size: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    gap: 21px;
+    cursor: pointer;
+}

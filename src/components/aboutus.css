@@ -1,0 +1,51 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.col-6 {
+    width: 560px;
+    height: 552px;
+}
+.about-button {
+    width: 68px;
+    height: 25px;
+    padding: 8px 26px 8px 26px;
+    background: rgba(186, 220, 234, 1);
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.about-heading {
+    font-family: "DM Sans", "sans-serif";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.08px;
+    text-align: left;
+    color: rgba(46, 52, 64, 1);
+    padding: 12px 4px 12px 4px;
+}
+.about-paragraph {
+    font-family: "DM Sans", "sans-serif";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24.74px;
+    text-align: left;
+    color: rgba(46, 52, 64, 0.65);
+    text-align: justify;
+}
+.about-btn button {
+    width: 152px;
+    height: 50px;
+    padding: 16px 24px 16px 24px;
+    opacity: 0px;
+    background: rgba(144, 188, 99, 1);
+    color: white;
+    border: none;
+    margin-top: 38px;
+    border-radius: 32px;
+    font-size: 16px; 
+    cursor: pointer;
+}

@@ -1,0 +1,126 @@
+.navbg {
+    background: #BADCE8;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0% auto;
+}
+.header-body {
+    max-width: 1400px;
+    margin: 0% auto;
+    width: 100%;
+    height: 914px;
+    background: #BADCE8;
+}
+
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 19px;
+    gap: 100px;
+}
+.nav_logo {
+    width: 152px;
+    height: 63.09px;
+    cursor: pointer;
+}
+.nav_element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+.nav_element ul {
+    list-style: none;
+    display: flex;
+    width: 580px;
+    height: 21px;
+    gap: 47px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.nav_element a {
+    text-decoration: none;
+    color: rgb(46, 43, 43);
+}
+
+.nav_button {
+    width: 130px;
+    height: 46px;
+    padding: 14px;
+    border: none;
+    color: white;
+    border-radius: 34px;
+    background: #90BC63;
+    cursor: pointer;
+}
+/* header */
+.header-section {
+    padding: 0px 0px 300px 0px;
+    position: relative;
+    max-width: 1150px;
+    margin: auto;
+}
+.header_image {
+    position: absolute;
+    bottom: 0%;
+    width: 50%;
+    right: 0;
+}
+.header-text {
+    width: 510px;
+}
+.header_image img {
+    width: 600px;
+}
+.side-content {   
+    padding-top: 83px;
+}
+.section-button {
+    width: 159px;
+    height: 23px;
+    padding: 5px 1px 7px 6px;
+    border-radius: 20px;
+    background: rgba(94, 145, 215, 0.14);
+    text-align: center;
+    cursor: pointer;
+}
+
+.content-heading {
+    font-family: "DM Sans", "sans-serif";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 64px;
+    font-weight: 700;
+    color: rgba(46, 52, 64, 1);
+    line-height: 75px;
+}
+.content-heading span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 81px;
+    font-weight: 700;
+    line-height: 79px;
+    text-align: left;
+    color: #90BC63;
+    cursor: pointer;
+}
+.header-text p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 29.95px;
+    text-align: left;
+    color:  rgba(46, 52, 64, 0.65);
+}
+.header-button {
+    width: 116px;
+    height: 23px;
+    text-align: center;
+    padding: 13px 0px 13px 0px;
+    border-radius: 20px;
+    background: #90BC63;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
